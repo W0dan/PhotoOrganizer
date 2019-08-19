@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoOrganizer", "PhotoOrganizer\PhotoOrganizer.csproj", "{42A217C1-F4A7-4B21-93EB-19C07404FA12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42A217C1-F4A7-4B21-93EB-19C07404FA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A217C1-F4A7-4B21-93EB-19C07404FA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A217C1-F4A7-4B21-93EB-19C07404FA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A217C1-F4A7-4B21-93EB-19C07404FA12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27589EE6-EE64-421D-AB18-D6676B18A266}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿<Window x:Class="PhotoOrganizer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhotoOrganizer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <ScrollViewer Name="ThumbnailScrollViewer" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" HorizontalContentAlignment="Left">
+            <WrapPanel Width="{Binding ElementName=ThumbNailScrollViewer, Path=ViewportWidth}" Orientation="Horizontal" Name="ThumbNailsStackPanel" HorizontalAlignment="Left" VerticalAlignment="Top" ScrollViewer.CanContentScroll="True" UseLayoutRounding="True" ></WrapPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
